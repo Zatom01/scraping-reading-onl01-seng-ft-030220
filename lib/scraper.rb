@@ -7,4 +7,10 @@ html = open("https://flatironschool.com/")
 
 doc= Nokogiri::HTML(html)
 
+doc.css(".headline-260IBN")
+
+binding.pry
+
+
+
 
